@@ -1,0 +1,25 @@
+{
+    "name": "victor-prdh/csv-bundle",
+    "type": "symfony-bundle",
+    "autoload": {
+        "psr-4": {
+            "VictorPrdh\\CsvBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Victor",
+            "email": "contact@victor-prdh.com"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": "7.3.*",
+        "symfony/console": "7.3.*",
+        "symfony/translation-contracts": "3.6.*"
+    },
+    "suggest": {
+        "dragonmantank/cron-expression": "^3.4",
+        "symfony/scheduler": "7.3.*",
+        "symfony/messenger": "7.3.*"
+    }
+}
