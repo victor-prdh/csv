@@ -2,7 +2,9 @@
 
 namespace VictorPrdh\CsvBundle\Exceptions;
 
-class FileNotFoundException extends \Exception
+use Exception;
+
+class CsvFileNotFoundException extends Exception
 {
     public function __construct(string $filename = "")
     {
